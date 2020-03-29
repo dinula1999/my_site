@@ -1,0 +1,139 @@
+body{
+  margin:0;
+  text-align: center;
+  background-color: #f4eeff;
+  font-family:sans-serif;
+}
+
+h1{
+  color: black;
+  font-family: 'Pacifico', cursive;
+  margin-top: 0px;
+  font-size: 3rem;
+  line-height: 2;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Baloo Thambi 2', cursive;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+a{
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted;
+  border-width:0;
+  border-bottom-width: 6px;
+  width: 40px;
+  color: #cfef4f;
+  margin:70px auto;
+}
+
+.top{
+  background-color: #715eed;
+  padding-top: 50px;
+  position: relative;
+}
+
+.cloud1{
+  position: absolute;
+  left:80%;
+  top:10%;
+  height: auto;
+}
+.cloud2{
+  position:absolute;
+  left:15%;
+  top:30%;
+  height: auto;
+}
+
+.mountain{
+  max-width: 80%;
+}
+
+.me{
+  margin-top: 50px;
+  height:200px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.sub{
+  font-weight: normal;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto ;
+  line-height: 2;
+  text-align:left;
+  font-size: 1.2rem;
+}
+
+.skill-row h3{
+  font-size: 2rem;
+  text-align: left;
+}
+
+.js{
+  width:25%;
+  float: left;
+}
+
+.py{
+  width: 25%;
+  float: right
+}
+
+.bottom-container{
+  background-color: #715eed;
+  color:#EAF6F6;
+  padding: 10px
+}
+
+.footer-link{
+  margin: 40px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bottom-container p {
+  margin:0;
+}
+.button {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #715eed 5%, #715eed 100%);
+	background-color:#715eed;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin-bottom: 20px;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #715eed 5%, #715eed 100%);
+	background-color:#715eed;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
